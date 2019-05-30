@@ -1,0 +1,82 @@
+#errorPage p {
+	font-family: 'Anton', sans-serif;
+}
+
+#errorPage {
+	height: 100vh;
+}
+
+header nav a {
+	border-bottom: white 2px solid;
+}
+
+header nav a:hover {
+	border-bottom-color: #AAF4FF;
+}
+
+header, p {
+	font-family: 'Raleway', sans-serif;
+}
+
+#definition {
+	font-family: 'Raleway', sans-serif;
+	font-size: large;
+}
+
+p {
+	font-size: small;
+}
+
+#home span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: large;
+}
+
+#home section span {
+	border-bottom: #AAF4FF 2px solid;
+}
+
+#home aside {
+	border-left: 2px #AAF4FF solid;
+}
+
+footer, header {
+	background: -webkit-linear-gradient(#AAF4FF, white, white);
+	background: -o-linear-gradient(#AAF4FF, white, white);
+	background: -webkit-gradient(linear, left top, left bottom, from(#AAF4FF), to(white));
+	background: -webkit-gradient(linear, left top, left bottom, from(#AAF4FF), color-stop(white), to(white));
+	background: linear-gradient(#AAF4FF, white, white);
+}
+
+.image {
+	max-width: 100%;
+	height: auto;
+}
+
+.noVisible {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.noRight {
+		border-left: 2px grey solid;
+	}
+}
+
+@media (max-width: 767px) {
+	.noRight {
+		border-left: none;
+	}
+
+	.noBottom {
+		border-bottom: 2px grey solid;
+	}
+
+	.noVisible {
+		display: block;
+	}
+
+	#home aside {
+		border-top: 2px #AAF4FF solid;
+	}
+}
