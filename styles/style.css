@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 #errorPage p {
+=======
+p {
+>>>>>>> 90481733e7aad45b8aceeeb578e52256591a3bd0
 	font-family: 'Anton', sans-serif;
 }
 
 #errorPage {
 	height: 100vh;
+<<<<<<< HEAD
 }
 
 header nav a {
@@ -79,4 +84,6 @@ footer, header {
 	#home aside {
 		border-top: 2px #AAF4FF solid;
 	}
+=======
+>>>>>>> 90481733e7aad45b8aceeeb578e52256591a3bd0
 }
